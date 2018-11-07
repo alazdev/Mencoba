@@ -1,0 +1,60 @@
+<html>
+    <head>
+        <title>Quotes, Gombalan, dan Kata-Kata Lucu</title>
+        <script src="main.js"></script>
+	    <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <header id="home" align="center"><br/><h1 align="center">Contoh Quotes, Gombalan, dan Kata-Kata Lucu</h1></header>
+        <div id="button"><br/>
+            <button class="choice" onclick="document.getElementById('quotes').style.display='block',
+                                            document.getElementById('gombalan').style.display='none',
+                                         document.getElementById('lucu').style.display='none'">
+                Quotes
+            </button>
+            <button class="choice" onclick="document.getElementById('quotes').style.display='none',
+                                            document.getElementById('gombalan').style.display='block',
+                                            document.getElementById('lucu').style.display='none'">
+                Gombalan
+            </button>
+            <button class="choice" onclick="document.getElementById('quotes').style.display='none',
+                                            document.getElementById('gombalan').style.display='none',
+                                            document.getElementById('lucu').style.display='block'">
+                Kata-Kata Lucu
+            </button>
+        </div>
+        <span id="quotes">
+            <div id="q1">
+                <h2 align="center" id="q3">Quotes ?</h2>
+                <p align="justify">     Pengertian kutipan (quote) adalah suatu kalimat atau ucapan yang dianggap menarik yang berisikan ide, pendapat atau gagasan seseorang. Dalam sebuah karya tulis, umumnya kutipan dijadikan bahan acuan atau sumber referensi untuk memperkuat, menambah dan memperjelas tulisan. Kutipan dapat diambil (mengutip) dari berbagai sumber seperti media cetak, media online atau audio-visual. Orang yang mengambil kutipan disebut dengan pengutip, sedang proses mengutip disebut pengutipan.</p>
+            </div>
+            <aside id="q2" align="center"><br/>
+                <button class="green" onclick="preview()">preview quotes</button>
+                <button class="green" onclick="cekQuotes()">Next quotes</button><br/><br/>
+                <img src="img/quotes/1.jpg" height="80%" id="q4"/>
+            </aside>
+        </span>
+        <span id="gombalan">
+            <div id="g1">
+                <h2 align="center" id="g3">Gombalan ?</h2>
+                <p align="justify">     Rayuan gombal: Kata-kata gombal digunakan oleh seseorang (biasanya pria) untuk merayu, menggoda dan atau mencari perhatian orang lain terutama lawan jenis. Namun saat sekarang ini juga banyak digunakan hanya untuk hiburan (komedi/lawak).</p>
+            </div>
+            <aside id="g2" align="center"><br/>
+                <button class="green" onclick="preview2()">Preview Gombalan</button>
+                <button class="green" onclick="cekGombalan()">Next Gombalan</button><br/><br/>
+                <img src="img/gombalan/1.jpg" height="80%" id="g4"/>
+            </aside>
+        </span>
+        <span id="lucu">
+            <div id="l1">
+                <h2 align="center" id="l3">Kata-Kata Lucu ?</h2>
+                <p align="justify">     Lucu adalah suatu kejadian atau tingkah laku yang menyebabkan orang tertawa berbeda dengan kata-kata lucu yang memiliki arti yang berbeda kata atau kalimat yang bertujuan untuk menghibur – komentar tanpa tanda tangan ini diberikan oleh Beben (bicara.</p>
+            </div>
+            <aside id="l2" align="center"><br/>
+                <button class="green" onclick="preview3()">Preview Kata-Kata Lucu</button>
+                <button class="green" onclick="cekLucu()">Next Kata-Kata Lucu</button><br/><br/>
+                <img src="img/lucu/1.png" height="80%" id="l4"/>
+            </aside>
+        </span>
+    </body>
+</html>

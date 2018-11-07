@@ -1,0 +1,90 @@
+body{
+    background-color: rgb(156, 227, 177);
+}
+#home{
+    background-color: rgb(133, 230, 234);
+    color: rgb(159, 85, 97);
+    height: 120px;
+    width:100%;
+}
+#button{
+    background-color: rgb(177, 204, 60);
+    width: 100%;
+    height: 50px;
+}
+.choice{
+    color: red;
+}
+#quotes,#gombalan,#lucu{
+    display: none;
+}
+#q1{
+    width: 27.5%;
+    height: 600px;
+    background-color: rgb(164, 218, 239);
+    margin: 25px;
+    float: left;
+    background-attachment: fixed;
+}
+#q2{
+    width: 65%;
+    height: 600px;
+    background-color: rgb(164, 218, 239);
+    margin: 25px;
+    float: right;
+    background-attachment: FIXED;
+}
+#q3{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(67, 120, 192);
+    float: top;
+}
+#g1{
+    width: 27.5%;
+    height: 600px;
+    background-color: rgb(249, 255, 156);
+    margin: 25px;
+    float: left;
+    background-attachment: fixed;
+}
+#g2{
+    width: 65%;
+    height: 600px;
+    background-color: rgb(249, 255, 156);
+    margin: 25px;
+    float: right;
+    background-attachment: FIXED;
+}
+#g3{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(236, 172, 66);
+    float: top;
+}
+#l1{
+    width: 27.5%;
+    height: 600px;
+    background-color: rgb(255, 197, 188);
+    margin: 25px;
+    float: left;
+    background-attachment: fixed;
+}
+#l2{
+    width: 65%;
+    height: 600px;
+    background-color: rgb(255, 197, 188);
+    margin: 25px;
+    float: right;
+    background-attachment: FIXED;
+}
+#l3{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(187, 67, 78);
+    float: top;
+}
+.green{
+    color: green;
+    float: top;
+}
